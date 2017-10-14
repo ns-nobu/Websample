@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://skyway.io/dist/v2/0.3/peer.js"></script>
+    <script type="text/javascript" src="videochat.js"></script>
+</head>
+ <head>
+
+    <title>ビデオチャットサービススゴイプ</title>
+  </head>
+
+<body>
+<body bgcolor="#ffa07a">
+
+    <h1>Sgoipe(スゴイプ)</h1>
+    <div>
+    <div>             ご利用方法
+      自分のIDをツイッターなどを使って使う相手と交換します。<div>
+      <div>通信相手のIDが表示されていたら相手と繋がっています。<div>
+      <div>WebRTC対応ブラウザをご利用ください。<div>
+		  <div>Powered　by skyway<div>
+        <video id="my-video" style="width: 300px;" autoplay></video>
+        <video id="peer-video" style="width: 300px;" autoplay></video>
+    </div>
+    <div>
+        <p>あなたのID: <span id="my-id">-</span></p>
+        <p>通信相手のID: <span id="peer-id">-</span></p>
+    </div>
+    <div>
+        <input type="text" placeholder="PeerID" id="peer-id-input">
+        <button id="call-start">掛ける</button>
+        <button id="call-end">切る</button>
+    </div>
+    
+    
+    
+    <div id="copy"></div>
+    
+    
+
+</body>
+</html>
